@@ -1,5 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap');
+
+
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
 }
+
+body{
+    font-family: 'Libre Franklin';
+    height: 100vh;
+}
+
+
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+
+/***************************
+           MAIN
+***************************/
+footer,
+main{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+
+main > img{
+    width: 100%;
+    margin: 60px 0;
+}
+
+#launching{
+    font-size: 25px;
+    font-weight: 300;
+    color: hsl(0, 0%, 59%);
+}
+
+#launching > span{
+    font-weight: 700;
+    color: black;
+}
+
+main p
+{
+    margin: 10px 0;
+}
+
+/***************************
+           EMAIL
+***************************/
+
+.email input,
+.email > button{
+    padding: 10px;
+    width: 85%;
+    border-radius: 20px;
+}
+
+
+.email  input{
+    
+    border: 1px solid hsl(223, 100%, 88%);
+}   
+
+.email >button{
+    background-color: hsl(223, 87%, 63%);
+    color: white;
+    border: none;
+    font-family: 'Libre Franklin';
+}
+
+.email *{
+    margin: 3px 0;
+}
+
+/***************************
+           FOOTER
+***************************/
+
+.logo i{
+    color: hsl(223, 87%, 63%);
+    padding: 0 10px;
+    border: 1px solid hsl(0, 0%, 59%);
+    border-radius: 50%;
+    padding: 10px;
+}
+
