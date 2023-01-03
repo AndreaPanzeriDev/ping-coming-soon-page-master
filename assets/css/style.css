@@ -2,26 +2,26 @@
 
 
 
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    
+
 }
 
-body{
+body {
     font-family: 'Libre Franklin';
     height: 100vh;
     display: flex;
 }
 
-.container{
+.container {
     align-self: center;
 }
 
 
 
-header{
+header {
     display: flex;
     justify-content: center;
     margin-bottom: 30px;
@@ -32,31 +32,30 @@ header{
            MAIN
 ***************************/
 footer,
-main{
+main {
     text-align: center;
     width: 80%;
     margin: auto;
 }
 
 
-main > img{
+main>img {
     width: 100%;
     margin: 30px;
 }
 
-#launching{
+#launching {
     font-size: 25px;
     font-weight: 300;
     color: hsl(0, 0%, 59%);
 }
 
-#launching > span{
+#launching>span {
     font-weight: 700;
     color: black;
 }
 
-main p
-{
+main p {
     margin: 20px 0;
 }
 
@@ -64,37 +63,37 @@ main p
            EMAIL
 ***************************/
 
-#error{
+#error {
     font-size: 12px;
     font-style: italic;
     color: red;
     display: none;
 }
 
-.email{
+.email {
     margin: 10px 0;
 }
 
 #clientMail,
-.email > button{
+.email>button {
     padding: 10px;
     width: 85%;
     border-radius: 20px;
 }
 
 
-#clientMail{
+#clientMail {
     border: 1px solid hsl(223, 100%, 88%);
-}   
+}
 
-.email >button{
+.email>button {
     background-color: hsl(223, 87%, 63%);
     color: white;
     border: none;
     font-family: 'Libre Franklin';
 }
 
-.email *{
+.email * {
     margin: 3px 0;
 }
 
@@ -102,20 +101,20 @@ main p
            FOOTER
 ***************************/
 
-footer{
+footer {
     margin-top: 100px;
 }
 
-footer > p{
+footer>p {
     font-size: 12px;
     color: hsl(0, 0%, 59%)
 }
 
-.logo{
+.logo {
     margin-bottom: 20px;
 }
 
-.logo i{
+.logo i {
     color: hsl(223, 87%, 63%);
     padding: 0 10px;
     border: 1px solid hsl(0, 0%, 59%);
@@ -123,3 +122,33 @@ footer > p{
     padding: 10px;
 }
 
+.logo i:hover{
+    background-color: hsl(223, 87%, 63%);
+    color: white;
+}
+
+
+
+
+
+@media only screen and (min-width: 1440px) {
+
+    footer,
+    main {
+        width: 60%;
+    }
+
+    .email {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #clientMail{
+        width: 500px;
+    }
+
+    .email>button {
+        width: 30%;
+    }
+
+}
