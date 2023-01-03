@@ -64,6 +64,13 @@ main p
            EMAIL
 ***************************/
 
+#error{
+    font-size: 12px;
+    font-style: italic;
+    color: red;
+    display: none;
+}
+
 .email{
     margin: 10px 0;
 }
