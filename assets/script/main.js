@@ -1,8 +1,8 @@
 
-let email = document.getElementById('clientMail');
+let email = document.getElementById('clientMail').value;
 
 function check() {
-
+    console.log(email);
     if(email.includes('.')){
         console.log('ok');
     }else{
